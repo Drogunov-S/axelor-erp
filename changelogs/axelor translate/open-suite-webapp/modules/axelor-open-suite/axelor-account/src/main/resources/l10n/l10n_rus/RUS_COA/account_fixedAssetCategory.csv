@@ -1,0 +1,10 @@
+"importId";"name";"fixedAssetType.code";"journal.code";"depreciationPlanSelect";"numberOfDepreciation";"periodicityTypeSelect";"periodicityInMonth";"durationInMonth";"isProrataTemporis";"computationMethodSelect";"degressiveCoef";"chargeAccount_code";"depreciationAccount_code";"provisionFixedAssetAccount_code";"approExtraordDepreciationExpenseAccount_code";"appProvisionFixedAssetAccount_code";"wbProvisionFixedAssetAccount_code";"capitalDepreciationDerogatoryAccount_code";"expenseDepreciationDerogatoryAccount_code";"incomeDepreciationDerogatoryAccount_code";"ifrsDepreciationAccount_code";"ifrsChargeAccount_code";"debtReceivableAccount_code";"realisedAssetsValueAccount_code";"realisedAssetsIncomeAccount_code"
+"GBR_COA1";"Патенты и торговые марки";"FA_IN";"MOA";"1,2";5;12;12;60;"true";"linear";;"8001";"11";100;8002;8300;8710;;;;;;1100;8420;8700
+"GBR_COA2";"Программное обеспечение";"FA_IN";"MOA";"1,2";3;12;12;36;"true";"linear";;"8001";"21";100;8002;8300;8710;;;;;;1100;8420;8700
+"GBR_COA3";"Приспособления и фурнитура, имеющие уничижительный характер";"FA_TA";"MOA";"1,2,3";7;12;12;84;"true";"linear";;"8000";"31";100;8002;8310;8705;;;;;;1100;8420;8700
+"GBR_COA4";"Приспособления и фурнитура линейные";"FA_TA";"MOA";"1,2";7;12;12;84;"true";"linear";;"8000";"31";100;8002;8310;8705;;;;;;1100;8420;8700
+"GBR_COA5";"Собственность";"FA_TA";"MOA";"1,2,3";7;12;12;84;"true";"linear";;"8000";"41";100;8002;8310;8705;;;;;;1100;8420;8700
+"GBR_COA6";"Мебель и другие инструменты";"FA_TA";"MOA";"1,2";10;12;12;120;"true";"linear";;"8000";"61";100;8002;8310;8705;;;;;;1100;8420;8700
+"GBR_COA7";"Офисное оборудование(IT)";"FA_TA";"MOA";"1,2,3";3;12;12;36;"true";"linear";;"8000";"61";100;8002;8310;8705;;;;;;1100;8420;8700
+"GBR_COA8";"Заводы и техника";"FA_TA";"MOA";"1,2";6;12;12;72;"true";"linear";;"8000";"71";100;8002;8310;8705;;;;;;1100;8420;8700
+"GBR_COA9";"Транспортные средства и логистика";"FA_TA";"MOA";"1,2,3";5;12;12;60;"true";"linear";;"8000";"51";100;8002;8310;8705;;;;;;1100;8420;8700

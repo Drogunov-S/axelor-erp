@@ -1,0 +1,167 @@
+"code";"parent_code";"name";"accountType.importId";"reconcileOk";"isRegulatoryAccount";"commonPosition";"compatibleAccounts";"useForPartnerBalance";"isTaxAuthorizedOnMoveLine";"isTaxRequiredOnMoveLine";"defaultTaxSet";"vatSystemSelect";"isRetrievedOnPaymentSession";"manageCutOffPeriod";"statusSelect"
+0;;"Великобритания-COA";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+"BAL";0;"балансовый отчет";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+"AST";"BAL";"Активы";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+"A000";"AST";"Основные средства";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+100;"A000";"Обесценение основных средств";"GBR_COA110";"FALSE";"FALSE";2;;;"TRUE";;;1;"FALSE";"FALSE";1
+"A010";"A000";"Нематериальные активы";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+10;"A010";"Программное обеспечение";"GBR_COA110";"FALSE";"FALSE";2;;;"TRUE";;;1;"FALSE";"FALSE";1
+11;"A010";"Амортизация программного обеспечения";"GBR_COA110";"FALSE";"FALSE";2;;;"TRUE";;;1;"FALSE";"FALSE";1
+20;"A010";"Патенты и товарные знаки";"GBR_COA110";"FALSE";"FALSE";2;;;"TRUE";;;1;"FALSE";"FALSE";1
+21;"A010";"Амортизация патентов и товарных знаков";"GBR_COA110";"FALSE";"FALSE";2;;;"TRUE";;;1;"FALSE";"FALSE";1
+"A020";"A000";"Материальные активы";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+30;"A020";"Оборудование и фурнитура";"GBR_COA110";"FALSE";"FALSE";2;;;"TRUE";;;1;"FALSE";"FALSE";1
+31;"A020";"Амортизация оборудования и фурнитуры";"GBR_COA110";"FALSE";"FALSE";2;;;"TRUE";;;1;"FALSE";"FALSE";1
+40;"A020";"Земля и здания";"GBR_COA110";"FALSE";"FALSE";2;;;"TRUE";;;1;"FALSE";"FALSE";1
+41;"A020";"Амортизация земли и зданий";"GBR_COA110";"FALSE";"FALSE";2;;;"TRUE";;;1;"FALSE";"FALSE";1
+50;"A020";"Автомобили";"GBR_COA110";"FALSE";"FALSE";2;;;"TRUE";;;1;"FALSE";"FALSE";1
+51;"A020";"Амортизация автомобилей";"GBR_COA110";"FALSE";"FALSE";2;;;"TRUE";;;1;"FALSE";"FALSE";1
+60;"A020";"Офисное оборудование (включая компьютерное оборудование)";"GBR_COA110";"FALSE";"FALSE";2;;;"TRUE";;;1;"FALSE";"FALSE";1
+61;"A020";"Офисное оборудование (включая компьютерное оборудование) Амортизация";"GBR_COA110";"FALSE";"FALSE";2;;;"TRUE";;;1;"FALSE";"FALSE";1
+70;"A020";"Основные средства и оборудование";"GBR_COA110";"FALSE";"FALSE";2;;;"TRUE";;;1;"FALSE";"FALSE";1
+71;"A020";"Амортизация основных средств и оборудования";"GBR_COA110";"FALSE";"FALSE";2;;;"TRUE";;;1;"FALSE";"FALSE";1
+"A030";"A000";"Инвестиции";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+"B000";"AST";"Текущие активы";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+"B010";"B000";"Запасы и НЗП";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+1001;"B010";"Склад";"GBR_COA120";"TRUE";"FALSE";2;;;;;;0;"FALSE";"FALSE";1
+1002;"B010";"незавершенная работа";"GBR_COA120";"FALSE";"FALSE";2;;;;;;0;"FALSE";"FALSE";1
+1003;"B010";"Готовая продукция";"GBR_COA120";"FALSE";"FALSE";2;;;;;;0;"FALSE";"FALSE";1
+"B020";"B000";"Дебиторы по сделкам";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+1100;"B020";"Контрольный счет дебиторов";"GBR_COA140";"TRUE";"FALSE";2;;"TRUE";;;;0;"TRUE";"FALSE";1
+1101;"B020";"Разные дебиторы";"GBR_COA140";"TRUE";"FALSE";2;;"TRUE";;;;0;"TRUE";"FALSE";1
+1102;"B020";"Сомнительные дебиторы";"GBR_COA140";"TRUE";"FALSE";2;;"TRUE";;;;0;"TRUE";"FALSE";1
+1103;"B020";"Валютный счет дебиторов";"GBR_COA140";"TRUE";"FALSE";2;;"TRUE";;;;0;"TRUE";"FALSE";1
+1104;"B020";"Дебиторы, которым не выставлены счета";"GBR_COA140";"TRUE";"FALSE";2;;"TRUE";;;;0;"TRUE";"FALSE";1
+1105;"B020";"Дебиторы, удерживаемые на счете";"GBR_COA140";"TRUE";"FALSE";2;;"TRUE";;;;0;"TRUE";"FALSE";1
+1110;"B020";"Дебиторский счет факторов производства";"GBR_COA140";"TRUE";"FALSE";2;;"TRUE";;;;0;"TRUE";"FALSE";1
+"B030";"B000";"Инвестиционные оборотные средства";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+"B040";"B000";"Наличные в банке и на кассе";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+1200;"B040";"Банковские счета";"GBR_COA130";"TRUE";"FALSE";2;;;;;;0;"FALSE";"FALSE";1
+1201;"B040";"Наличные в национальной валюте";"GBR_COA130";"FALSE";"FALSE";0;;;;;;0;"FALSE";"FALSE";1
+1240;"B040";"Банк в национальной валюте";"GBR_COA130";"TRUE";"FALSE";1;;;;;;0;"FALSE";"FALSE";1
+1250;"B040";"Разница при закрытии кассы";"GBR_COA130";"TRUE";"FALSE";1;;;;;;0;"FALSE";"FALSE";1
+"B050";"B000";"Предоплаты";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+1112;"B050";"Кредитная карта компании";"GBR_COA140";"FALSE";"FALSE";1;;;;;;0;"FALSE";"FALSE";1
+1113;"B050";"Расходы на предоплату";"GBR_COA140";"FALSE";"FALSE";1;;;;;;0;"FALSE";"FALSE";1
+1114;"B050";"Начисленный доход";"GBR_COA140";"FALSE";"FALSE";1;;;;;;0;"FALSE";"FALSE";1
+"C000";"BAL";"Обязательства";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+"C010";"C000";"Текущие обязательства";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+2100;"C010";"Задолженность перед кредиторами в течение одного года";"GBR_COA240";"TRUE";"FALSE";1;;"TRUE";;;;0;"TRUE";"FALSE";1
+2101;"C010";"Контрольный счет кредиторов";"GBR_COA240";"TRUE";"FALSE";1;;"TRUE";;;;0;"TRUE";"FALSE";1
+2102;"C010";"Различные кредиторы";"GBR_COA240";"TRUE";"FALSE";1;;"TRUE";;;;0;"TRUE";"FALSE";1
+2105;"C010";"Удержания кредиторов";"GBR_COA240";"TRUE";"FALSE";1;;"TRUE";;;;0;"TRUE";"FALSE";1
+2200;"C010";"Прочие кредиторы";"GBR_COA240";"TRUE";"FALSE";1;;"TRUE";;;;0;"TRUE";"FALSE";1
+2201;"C010";"Контрольный счет по налогу с продаж";"GBR_COA250";"FALSE";"FALSE";1;;;"TRUE";;;0;"FALSE";"FALSE";1
+2202;"C010";"Контрольный счет по налогу на покупку";"GBR_COA250";"FALSE";"FALSE";1;;;"TRUE";;;0;"FALSE";"FALSE";1
+2203;"C010";"Нулевой налог с продаж освобожден от уплаты налога с продаж";"GBR_COA250";"FALSE";"FALSE";1;;;"TRUE";;;0;"FALSE";"FALSE";1
+2204;"C010";"Налог на покупку с нулевым рейтингом освобожден от уплаты налога на покупку";"GBR_COA250";"FALSE";"FALSE";1;;;"TRUE";;;0;"FALSE";"FALSE";1
+2204;"C010";"HMRC - Налоговый счет";"GBR_COA250";"FALSE";"FALSE";1;;;;;;0;"FALSE";"FALSE";1
+2210;"C010";"Ручные настройки ﾖ НДС";"GBR_COA230";"TRUE";"FALSE";1;;"TRUE";;;;0;"TRUE";"FALSE";1
+2220;"C010";"P.A.Y.E. & NI";"GBR_COA230";"TRUE";"FALSE";1;;"TRUE";;;;0;"TRUE";"FALSE";1
+2230;"C010";"Чистая заработная плата";"GBR_COA230";"TRUE";"FALSE";1;;"TRUE";;;;0;"TRUE";"FALSE";1
+"C020";"C000";"Пенсионный фонд";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+2150;"C020";"Резервы по обязательствам и сборам";"GBR_COA230";"FALSE";"FALSE";1;;;;;;0;"FALSE";"FALSE";1
+"C030";"C000";"Резерв по сомнительным долгам";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+2109;"C030";"Начисления и доходы будущих периодов";"GBR_COA230";"FALSE";"FALSE";1;;;;;;0;"FALSE";"FALSE";1
+2320;"C030";"Авансовые платежи Кредиторам";"GBR_COA240";"TRUE";"FALSE";1;;"TRUE";;;;0;"TRUE";"FALSE";1
+"C040";"C000";"Долгосрочные обязательства";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+2440;"C040";"Корпоративный налог";"GBR_COA230";"FALSE";"FALSE";1;;;;;;0;"FALSE";"FALSE";1
+2300;"C040";"Задолженность перед кредиторами по истечении одного года";"GBR_COA230";"FALSE";"FALSE";1;;;;;;0;"FALSE";"FALSE";1
+2310;"C040";"Кредиты";"GBR_COA230";"FALSE";"FALSE";1;;;;;;0;"FALSE";"FALSE";1
+2330;"C040";"Покупка в рассрочку";"GBR_COA230";"FALSE";"FALSE";1;;;;;;0;"FALSE";"FALSE";1
+"C050";"C000";"Начисленные расходы и доходы";"GBR_COA250";"FALSE";"FALSE";1;;;"TRUE";;;0;"FALSE";"FALSE";1
+2550;"C050";"Начисленные налоги";"GBR_COA250";"FALSE";"FALSE";1;;;"TRUE";;;0;"FALSE";"FALSE";1
+2560;"C050";"Начисленные налоги на прибыль";"GBR_COA250";"FALSE";"FALSE";1;;;"TRUE";;;0;"FALSE";"FALSE";1
+"E000";"BAL";"Собственный капитал заинтересованных сторон";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+3000;"E000";"Капитал и резервы";"GBR_COA210";"FALSE";"FALSE";1;;;;;;0;"FALSE";"FALSE";1
+3010;"E000";"Привлеченный акционерный капитал";"GBR_COA210";"FALSE";"FALSE";1;;;;;;0;"FALSE";"FALSE";1
+3020;"E000";"Счет эмиссионных взносов";"GBR_COA210";"FALSE";"FALSE";0;;;;;;0;"FALSE";"FALSE";1
+3030;"E000";"нераспределенная прибыль";"GBR_COA210";"FALSE";"FALSE";1;;;;;;0;"FALSE";"FALSE";1
+3200;"E000";"Резерв переоценки";"GBR_COA210";"FALSE";"FALSE";1;;;;;;0;"FALSE";"FALSE";1
+"PNL";0;"Отчет о прибылях и убытках";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+"F000";"PNL";"Доход";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+"F010";"F000";"Оборот/Выручка от продаж";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+4001;"F010";"Категория продаж 1";"GBR_COA1000";"FALSE";"FALSE";1;;;"TRUE";"TRUE";"UK_SRS_20";1;"FALSE";"TRUE";1
+4002;"F010";"Категория продаж 2";"GBR_COA1000";"FALSE";"FALSE";1;;;"TRUE";"TRUE";"UK_SRS_20";1;"FALSE";"TRUE";1
+4003;"F010";"Категория продаж 3";"GBR_COA1000";"FALSE";"FALSE";1;;;"TRUE";"TRUE";"UK_SRS_20";1;"FALSE";"TRUE";1
+4004;"F010";"Продажа товаров на экспорт";"GBR_COA1000";"FALSE";"FALSE";1;;;"TRUE";"TRUE";"UK_ZRS";1;"FALSE";"TRUE";1
+"G000";"PNL";"Расходы";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+"G010";"G000";"Себестоимость продажи";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FLASE";1
+5001;"G010";"Себестоимость продажи 1";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+5002;"G010";"Себестоимость продажи 2";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+5003;"G010";"Себестоимость продажи 3";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+"H000";"G000";"Прочие расходы";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+"H010";"H000";"Маркетинговые расходы";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+6000;"H010";"Реклама и промоакции";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+6001;"H010";"Маркетинг";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+6002;"H010";"Выставки и мероприятия";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+"H020";"H000";"Распределение";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+6010;"H020";"Расходы на дистрибуцию";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+6020;"H020";"Транспортные средства дистрибуции";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+6030;"H020";"Заработная плата дистрибьюторов";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+"I000";"H000";"пиар";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+"I010";"I000";"Административные расходы";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+7000;"I010";"Заработная плата";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7001;"I010";"Пенсии директорам";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7010;"I010";"Вознаграждения директорам";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7011;"I010";"Общая заработная плата администраторов";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7012;"I010";"Общая заработная плата руководства";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7020;"I010";"NIC работодателей";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+"I020";"I000";"Юридические и профессиональные расходы";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+7610;"I020";"Выплаты субподрядчикам";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7620;"I020";"Консультации";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7601;"I020";"Аудит";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7602;"I020";"Учет";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+"I030";"I000";"Расходы на недвижимость";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+7100;"I030";"Ремонт и техническое обслуживание";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7110;"I030";"Арендная плата и ставки";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7120;"I030";"Свет";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+"I040";"I000";"Транспортные расходы";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+7300;"I040";"Техническое обслуживание автомобиля";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7301;"I040";"Аренда автомобиля";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7302;"I040";"Топливо для автомобиля";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+"I050";"I000";"Административные и офисные расходы";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+7502;"I050";"Кладовая";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7503;"I050";"Телефон";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7504;"I050";"Интернет и хостинг";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7505;"I050";"Мобильные телефоны";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7506;"I050";"Канцтовары";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7507;"I050";"Канцелярские принадлежности";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7508;"I050";"Почтовые расходы и перевозка";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7509;"I050";"Книги";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7510;"I050";"Затраты на сеть";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7511;"I050";"Затраты на программное обеспечение";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7512;"I050";"Прочие расходы на компьютер";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7513;"I050";"Плата за наем персонала";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+8500;"I050";"Командировочные и суточные";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+"I060";"I000";"Прочие расходы";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+7700;"I060";"Прочие издержки";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7710;"I060";"Курсовые разницы";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7850;"I060";"Прочие расходы";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+7910;"I060";"Безнадежные долги";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+8200;"I060";"Банковские услуги, кредитные карты и другие финансовые расходы";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+8300;"I060";"Пожертвования";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+8400;"I060";"Развлекательный";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+8410;"I060";"Страхование";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+8420;"I060";"Расходы на передачу стоимости актива";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+"I070";"I000";"Расходы на амортизацию";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+"I071";"I070";"Расходы на амортизацию";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+8000;"I071";"Амортизация материальных активов";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+8001;"I071";"Амортизация нематериальных активов";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+8002;"I071";"Чрезвычайная амортизация основных средств";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+"I072";"I070";"Расходы на обесценение";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+8300;"I072";"Обесценение материальных активов";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+8310;"I072";"Обесценение нематериальных активов";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRT";1;"FALSE";"TRUE";1
+"J000";"F000";"Прочие операционные доходы";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+8700;"J000";"Прибыль/убытки от выбытия активов";"GBR_COA1000";"FALSE";"FALSE";1;;;"TRUE";"TRUE";"UK_SRS_20";1;"FALSE";"TRUE";1
+8705;"J000";"Восстановление износа, Амортизация материальных активов";"GBR_COA1000";"FALSE";"FALSE";1;;;"TRUE";"TRUE";"UK_SRS_20";1;"FALSE";"TRUE";1
+8710;"J000";"Восстановление износа, Амортизация нематериального актива";"GBR_COA1000";"FALSE";"FALSE";1;;;"TRUE";"TRUE";"UK_SRS_20";1;"FALSE";"TRUE";1
+4900;"J000";"Получены банковские проценты";"GBR_COA1000";"FALSE";"FALSE";1;;;"TRUE";"TRUE";"UK_SRS_20";1;"FALSE";"TRUE";1
+4910;"J000";"Получены прочие доходы";"GBR_COA1000";"FALSE";"FALSE";1;;;"TRUE";"TRUE";"UK_SRS_20";1;"FALSE";"TRUE";1
+4920;"J000";"Получен доход от скидки при покупке";"GBR_COA1000";"FALSE";"FALSE";1;;;"TRUE";"TRUE";"UK_SRS_20";1;"FALSE";"TRUE";1
+"M000";"PNL";"Налог на прибыль или убыток от обычной деятельности";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+8800;"M000";"Расходы по корпоративному налогу";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRS_20";1;"FALSE";"TRUE";1
+8810;"M000";"Проценты к уплате и аналогичные расходы";"GBR_COA2000";"FALSE";"FALSE";2;;;"TRUE";"TRUE";"UK_SRS_20";1;"FALSE";"TRUE";1
+"N000";0;"Специальные счета";"GBR_COA0";"FALSE";"TRUE";0;;;;;;0;"FALSE";"FALSE";1
+9000;"N000";"Начальный баланс";"GBR_COA9000";"FALSE";"FALSE";2;;;;;;0;"FALSE";"FALSE";1
+9010;"N000";"Итоговый баланс";"GBR_COA9000";"FALSE";"FALSE";2;;;;;;;;;

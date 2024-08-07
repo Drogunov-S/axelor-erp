@@ -1,0 +1,6 @@
+"importId";"code";"name";"isDisplayBalances";"accountTypeSet";"technicalTypeSelect"
+"GBR_COA1";"PCH";"Покупка";;;1
+"GBR_COA2";"SAL";"Распродажа";;;2
+"GBR_COA3";"REF";"Возврат";;;3
+"GBR_COA4";"TRS";"Казначейство";"true";"cash";4
+"GBR_COA5";"OTH";"Другой";;;5

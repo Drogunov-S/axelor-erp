@@ -1,0 +1,50 @@
+"importId";"codeSelect";"name";"sequenceTypeSelect";"sequenceLettersTypeSelect";"nextNum";"padding";"prefixe";"suffixe";"toBeAdded";"yearlyResetOk"
+1000;"invoice";"Счет-фактура клиента";"NUMBERS";"UPPERCASE";1;4;"INV_%YY";;1;1
+1010;"invoice";"Возврат средств клиентом";"NUMBERS";"UPPERCASE";1;4;"REF_%YY";;1;1
+1100;"invoice";"Счет-фактура поставщика";"NUMBERS";"UPPERCASE";1;4;"SINV_%YY";;1;1
+1110;"invoice";"Возврат средств поставщиком";"NUMBERS";"UPPERCASE";1;4;"SREF_%YY";;1;1
+2000;"move";"Запись о продаже";"NUMBERS";"UPPERCASE";1;4;"SAL%YY";;1;1
+2010;"move";"Запись о возврате средств при продаже";"NUMBERS";"UPPERCASE";1;4;"RFS%YY";;1;1
+2020;"move";"Запись о покупке";"NUMBERS";"UPPERCASE";1;4;"PCH%YY";;1;1
+2030;"move";"Запись о возврате средств при покупке";"NUMBERS";"UPPERCASE";1;4;"RFP%YY";;1;1
+2040;"move";"Банковская запись";"NUMBERS";"UPPERCASE";1;4;"BNK%YY";;1;1
+2100;"move";"Автоматическое внесение разности Запись об операциях ";"NUMBERS";"UPPERCASE";1;4;"MOA%YY";;1;1
+2110;"move";"Разное вручную Запись об операциях";"NUMBERS";"UPPERCASE";1;4;"MOM%YY";;1;1
+2200;"move";"Запись о балансе в отчете о прибылях и убытках";"NUMBERS";"UPPERCASE";1;4;"RPB%YY";;1;1
+3000;"accountingReport";"Бухгалтерские отчеты";"NUMBERS";"UPPERCASE";1;4;"AX%YY";;1;1
+4000;"reconcile";"Сверка счетов";"NUMBERS";"UPPERCASE";1;4;"REC_%YY_%M_";;1;1
+4010;"reconcileGroupFinal";"Окончательная надпись";"LETTERS";"LOWERCASE";1;4;;;1;0
+4020;"reconcileGroupDraft";"Черновая надпись";"LETTERS";"UPPERCASE";1;4;;;1;0
+5000;"fixedAsset";"Основные средства, Кол-во";"NUMBERS";"UPPERCASE";1;3;"IMMO%YYYY";;1;1
+6000;"paymentSession";"Нет способа оплаты";"NUMBERS";"UPPERCASE";1;3;"PMTS%YYYY";;1;1
+6100;"paymentVoucher";"Номер для платежей, полученных банковским переводом";"NUMBERS";"UPPERCASE";1;4;"PI_VIR_%YY_";;1;1
+6110;"paymentVoucher";"Номер для платежей, полученных чеком";"NUMBERS";"UPPERCASE";1;4;"PI_CHQ_%YY_";;1;1
+6120;"paymentVoucher";"Номер для платежей, полученных с помощью кредитной карты";"NUMBERS";"UPPERCASE";1;4;"PI_CC_%YY_";;1;1
+6130;"paymentVoucher";"Количество платежей, полученных онлайн";"NUMBERS";"UPPERCASE";1;4;"PI_WEB_%YY_";;1;1
+6140;"paymentVoucher";"Номер для платежей, полученных прямым дебетованием (счет-фактура и рассрочка)";"NUMBERS";"UPPERCASE";1;4;"PI_PRE_%YY_";;1;1
+6150;"paymentVoucher";"№° для платежей, полученных наличными";"NUMBERS";"UPPERCASE";1;4;"PI_ESP_%YY_";;1;1
+6160;"paymentVoucher";"№° для платежей, полученных другими способами";"NUMBERS";"UPPERCASE";1;4;"PI_OTH_%YY_";;1;1
+6200;"paymentVoucher";"№° для платежей, осуществленных банковским переводом";"NUMBERS";"UPPERCASE";1;4;"PO_VIR_%YY_";;1;1
+6210;"paymentVoucher";"№° для платежей, осуществленных чеком";"NUMBERS";"UPPERCASE";1;4;"PO_CHQ_%YY_";;1;1
+6220;"paymentVoucher";"№° для платежей, осуществленных кредитной картой";"NUMBERS";"UPPERCASE";1;4;"PO_CB_%YY_";;1;1
+6230;"paymentVoucher";"№° для платежей, осуществленных прямым дебетованием (счет-фактура и рассрочка)";"NUMBERS";"UPPERCASE";1;4;"PO_PRE_%YY_";;1;1
+6240;"paymentVoucher";"NV для платежей, осуществляемых наличными средствами";"NUMBERS";"UPPERCASE";1;4;"PO_ESP_%YY_";;1;1
+6250;"paymentVoucher";"N° для платежей, осуществляемых посредством IPO";"NUMBERS";"UPPERCASE";1;4;"PO_IPO_%YY_";;1;1
+6260;"paymentVoucher";"N° для платежей, осуществляемых другими способами";"NUMBERS";"UPPERCASE";1;4;"PO_OTH_%YY_";;1;1
+6300;"paymentVoucherReceiptNo";"Получение ваучера N°";"NUMBERS";"UPPERCASE";1;4;"RECPT_%YY_";;1;1
+7000;"debit";"Прямое списание (счет-фактура и рассрочка)";"NUMBERS";"UPPERCASE";1;4;"DDINV_%YY_";;1;1
+7100;"debitReject";"Отклонение прямого списания";"NUMBERS";"UPPERCASE";1;4;"REJDD%YY";;1;1
+8000;"depositSlip";"Квитанция о внесении депозита";"NUMBERS";"UPPERCASE";1;4;"DS%YY%FM";;1;1
+8100;"chequeReject";"Отклонение чека";"NUMBERS";"UPPERCASE";1;4;"CHQREJ_%YY_";;1;1
+8300;"paymentSchedule";"Рассрочка N° ";"NUMBERS";"UPPERCASE";1;4;"INSTAL_%YY_";;1;1
+9000;"subrogationRelease";"Освобождение от суброгации";"NUMBERS";"UPPERCASE";1;4;"SR%YY%FM";;1;1
+10000;"irrecoverable";"Переход на безвозвратный режим";"NUMBERS";"UPPERCASE";1;4;"IRREC_%YY_";;1;1
+10100;"accountClearance";"Оформление переплаты";"NUMBERS";"UPPERCASE";1;4;"ACCCLR_%YY_";;1;1
+10200;"moveLineExport";"Учет экспорта";"NUMBERS";"UPPERCASE";1;4;"ACCEXP_%YY_";;1;1
+10300;"reimbursement";"Предложения по возмещению расходов";"NUMBERS";"UPPERCASE";1;4;"REIMB_%YY_";;1;1
+10400;"noteBills";"Счета-фактуры";"NUMBERS";"UPPERCASE";1;3;"NB%YYYY";;1;1
+11000;"analyticReport";"Аналитические отчеты";"NUMBERS";"UPPERCASE";1;4;"ANAREP_%YY_";;1;1
+12000;"purchaseInterface";"Интерфейс покупки";"NUMBERS";"UPPERCASE";1;4;"PURINT_%YY_";;1;1
+13000;"refundInterface";"Интерфейс возврата средств";"NUMBERS";"UPPERCASE";1;4;"REFINT_%YY_";;1;1
+14000;"saleInterface";"Интерфейс продажи";"NUMBERS";"UPPERCASE";1;4;"SALINT_%YY_";;1;1
+15000;"treasuryInterface";"Интерфейс казначейства";"NUMBERS";"UPPERCASE";1;4;"TREINT_%YY_";;1;1
